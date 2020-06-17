@@ -40,7 +40,7 @@ mix.purgeCss({
     ]),
 });
 
-if (mix.inProduction()) {
-    mix.versionHash();
-    mix.sourceMaps();
-}
+// if (mix.inProduction()) {
+//     mix.versionHash();
+//     mix.sourceMaps();
+// }
