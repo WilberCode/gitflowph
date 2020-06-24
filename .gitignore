@@ -3,8 +3,10 @@
 node_modules
 build
 local.json 
+tailwind-example.js
+.gitignore
 tailwind.js
 webpack.mix.js
-assets 
-package-lock.json
-pepe.html
+assets
+package.json
+package-lock.json 
