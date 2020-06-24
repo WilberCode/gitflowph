@@ -3,7 +3,7 @@
 
 use WpTailwindCssThemeBoilerplate\AutoLoader;
 use WpTailwindCssThemeBoilerplate\View;
-
+ 
 
 /*
  * Set up our auto loading class and mapping our namespace to the app directory.

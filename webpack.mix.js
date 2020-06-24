@@ -7,7 +7,7 @@ require('laravel-mix-purgecss');
 
 mix.setPublicPath('./build');
 
-mix.webpackConfig({
+mix.webpackConfig({ 
     externals: {
         "jquery": "jQuery",
     }

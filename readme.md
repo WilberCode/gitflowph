@@ -1,2 +1,3 @@
-A boilerplate for Wordpress theme development     
----------------------------------------------
+A boilerplate for Wordpress theme development      
+--------------------------------------------- 
+ 

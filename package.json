@@ -12,7 +12,7 @@
     "prod": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "test": "cross-env nyc ava --verbose --serial",
     "posttest": "cross-env nyc report --reporter=html"
-  },
+  }, 
   "author": "Phil Kurth <phil@philkurth.com.au>",
   "license": "MIT",
   "devDependencies": {
