@@ -6,6 +6,5 @@ local.json
 .gitignore
 tailwind.js
 webpack.mix.js
-assets
-package.json
+assets 
 package-lock.json
