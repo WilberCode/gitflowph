@@ -5,6 +5,5 @@ build
 local.json 
 tailwind.js
 webpack.mix.js
-assets
-package.json
+assets 
 package-lock.json
