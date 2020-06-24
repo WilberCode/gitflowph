@@ -1,7 +1,6 @@
 .idea
 .vscode
-node_modules
-build
+node_modules 
 local.json 
 tailwind-example.js
 .gitignore
