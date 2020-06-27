@@ -15,7 +15,7 @@ use WpTailwindCssThemeBoilerplate\View;
  * as the autoloader will handle that for you.
  */
 require get_stylesheet_directory() . '/app/AutoLoader.php';
-$loader = new AutoLoader();
+$loader = new AutoLoader(); 
 $loader->register();
 $loader->addNamespace( 'WpTailwindCssThemeBoilerplate', get_stylesheet_directory() . '/app' );
 
