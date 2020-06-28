@@ -3,6 +3,7 @@
 
 use WpTailwindCssThemeBoilerplate\AutoLoader;
 use WpTailwindCssThemeBoilerplate\View; 
+
 /*
  * Set up our auto loading class and mapping our namespace to the app directory.
  *
@@ -11,7 +12,7 @@ use WpTailwindCssThemeBoilerplate\View;
  *
  * i.e; If a class named SomeClass is stored in app/SomeDir/SomeClass.php, there is no need to include/require that file
  * as the autoloader will handle that for you.
- */
+ */  
 require get_stylesheet_directory() . '/app/AutoLoader.php';
 $loader = new AutoLoader(); 
 $loader->register();
