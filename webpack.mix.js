@@ -5,6 +5,9 @@ require('laravel-mix-versionhash');
 require('laravel-mix-tailwind');
 require('laravel-mix-purgecss');
 
+require('browser-sync')
+require('browser-sync-webpack-plugin')
+
 mix.setPublicPath('./build');
 
 mix.webpackConfig({ 
@@ -17,13 +20,14 @@ if (local.proxy) {
     mix.browserSync({
         proxy: local.proxy,
         injectChanges: true,
-        open: false,
+        open: true,
         files: [
             'build/**/*.{css,js}',
-            'templates/**/*.php'
+            '*.html'
+            // 'templates/**/*.php'
         ]
     });
-}
+}  
 
 mix.tailwind();
 
@@ -34,9 +38,10 @@ mix.sass('assets/scss/app.scss', 'css');
 // to wrap this up with a condition.
 mix.purgeCss({
     paths: () => glob.sync([
-        path.join(__dirname, '*.php'),
-        path.join(__dirname, 'templates/**/*.php'),
-        path.join(__dirname, 'build/js/**/*.js'),
+        path.join(__dirname, '*.html')
+        // path.join(__dirname, '*.php'),
+        // path.join(__dirname, 'templates/**/*.php'),
+        // path.join(__dirname, 'build/js/**/*.js'),
     ]),
 });
 
