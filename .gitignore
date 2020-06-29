@@ -1,8 +1,8 @@
 .idea
 .vscode
-node_modules 
-local.json 
-tailwind-example.js 
+node_modules
+local.json
+tailwind-example.js
 .gitignore
 tailwind.js
 webpack.mix.js
