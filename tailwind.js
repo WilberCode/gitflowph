@@ -14,7 +14,7 @@ module.exports = {
                 xxs: '0.675rem',
             },
             lineHeight: {
-                tighter: '1.125',
+                tighter: '1.120',
             },
         }
     },
